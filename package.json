@@ -1,0 +1,28 @@
+{
+  "name": "backend-base-app",
+  "version": "1.0.0",
+  "description": "Base Backend NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev" : "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Bayron Campaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BayronCampaz/backend-base/issues"
+  },
+  "homepage": "https://github.com/BayronCampaz/backend-base#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  }
+}
